@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 10px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+/*style header*/
+
+header{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.logo{
+    height: 150px;
+    width: 100%;
+}
+
+/*style pictures*/
+
+h1{
+    color: #353535;
+}
+.list, ul, li{
+    display: flex;
+    margin-left: 10px;
+    color: #616161;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.contains{
+    display: flex;
+    margin-bottom: 20px;
+    height: 650px;
+}
+ aside{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.show{
+    flex:3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.frontImg , .behindImg , .cameraImg{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #616161;
+    margin-bottom: 10px;
+    background-color: #eee;
+    cursor: pointer;
+}
+.front, .behind, .camera{
+    margin-top: 10px;
+    height: 80px;
+    width: 80px;
+}
+.showImg1, .showImg2 , .showImg3{ 
+    border-radius: 10px;
+    border:0.5px solid #eee;
+}
+.showImg1{
+    height: 650px;
+   
+}
+/*.showImg2 , .showImg3, .info{
+    display: none;
+}*/
+.info , .info1 , .info2{
+    flex:1;
+    font-weight: bolder;
+    color: #616161;
+    text-align: center;
+}
+.display{
+    display: flex;
+}
+.displayNone{
+    display: none;
+}
