@@ -1,4 +1,4 @@
-# Magalu
+# First Project
 - Página com informações sobre o produto, disponibilizando interface interativa com o usuário.
 
 ## Funcionalidades
